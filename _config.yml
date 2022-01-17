@@ -9,7 +9,7 @@
 title: Áine O'Toole
 email: aine.otoole@ed.ac.uk
 description: 
-baseurl: "/phantom-jekyll-theme" # the subpath of your site, e.g. /blog
+baseurl: "aineotoole.co.uk" # the subpath of your site, e.g. /blog
 url: "aineotoole.co.uk" # the base hostname & protocol for your site
 
 # Logo settings
