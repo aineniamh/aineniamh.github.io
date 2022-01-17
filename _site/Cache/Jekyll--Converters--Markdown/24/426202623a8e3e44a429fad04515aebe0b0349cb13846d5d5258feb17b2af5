@@ -1,0 +1,117 @@
+I"ž<head>
+    <title>Virus Club Edinburgh University</title>
+    <meta name="description" content="Seminar series on virus 
+        genomics and evolution at Edinburgh University. 
+        Held in Ashworth Laboratories, Kings Buildings." />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+
+<body class="is-preload">
+
+<!-- Wrapper -->
+<div id="wrapper">
+
+<!-- Header -->
+<header id="header">
+    <a href="index.html" class="logo"><strong>Edinburgh University</strong> <span>Virus Club</span></a>
+    <nav>
+        <a href="#menu">Menu</a>
+    </nav>
+</header>
+
+
+
+    <!-- Banner -->
+    <section id="banner" class="major">
+        <div class="inner">
+            <header class="major">
+                <h1>Edinburgh University Virus Club</h1>
+            </header>
+            <div class="content">
+                <p>Seminar series for those interested in virus genomics and evolution</p>
+                <!-- <ul class="actions">
+                    <li><a href="#one" class="button next scrolly">More about me</a></li>
+                </ul> -->
+            </div>
+        </div>
+    </section>
+    <!-- Main -->
+    <div id="main" class="alt">
+            <!-- One -->
+            <section id="one" class="tiles">
+                <article>
+                    <span class="image">
+                        <img src="images/uni_logo.png" alt="" />
+                    </span>
+                    <header class="major">
+                        <h3><a href="https://goo.gl/maps/cioXP4EGShUwJ3BGA" class="link">Where to find us</a></h3>
+                        
+                    </header>
+                </article>
+                <article>
+                    <span class="image">
+                        <img src="images/pic02.jpg" alt="" />
+                    </span>
+                    <header class="major">
+                        <h3><a href="http://aineotoole.co.uk/virus_club.html#two" class="link">Past speakers</a></h3>
+                        <p>Internal and external speakers since 2018</p>
+                    </header>
+                </article>
+            &lt;/div&gt;
+        </section>
+
+            <!-- Two -->
+                <section id="two">
+                    <div class="inner">
+                        <header class="major">
+                            <h1>Virus Club Seminars</h1>
+                        </header>
+                        <!-- <span class="image main"><img src="images/pic11.jpg" alt="" /></span> -->
+                        <p><h3>September 2018</h3>
+                            Andy Leigh Brown <br /> 
+                                First case of a criminal prosecution of HIV transmission in Ireland<br />
+                        <br /><h3>October 2018</h3>
+                            Gytis Dudas <br />
+                                MERS-CoV spillover at the camel-human interface<br />
+                        <br /><h3>November 2018</h3>
+                            Jordan Douglas <br />
+                                Kinetic models of transcriptional pausing<br />
+                        <br /><h3>November 2018</h3>
+                            Rachel Colquhoun<br />
+                                Pandora â€“ variation inference for pangenomes from Nanopore or Illumina data<br />
+                        <br /><h3>December 2018</h3>
+                            JT McCrone<br />
+                                Influenza evolution between and within human hosts<br />
+                        <br /><h3>March 2019</h3>
+                            Heather Grant<br />
+                                Patterns of inter-subtype recombination in full HIV genomes from Uganda<br />
+
+                        <br /><h3>April 2019</h3>
+                            Donald Kwan<br /> 
+                                HIV transmission dynamics in Hong Kong and Uganda<br />
+                            
+                        <br /><h3>July 2019</h3>
+                            Mike Gallagher<br /> 
+                                Characterising co-circulating viral strains in both wild and farmed fish with targeted sequence capture<br />
+                            
+                        <br /><h3>September 2019</h3>
+                            Anel Nurtay<br />
+                                Within-host specialisation of viral population: bifurcation analysis and chaos<br />
+                        <br /><h3>October 2019</h3>
+                            JT McCrone<br />
+                                Phylogenetic insights into ebola dynamics in non-human hosts<br />
+                        <br /><h3>January 2020</h3>
+                            Paola Cristina Resende<br />
+                                Re-emergence and spread of measles virus in Brazil<br />
+                        <br /><h3>March 2020 *Postponed*</h3>
+                            Thomas Christie Williams<br />
+                                RSV research gaps in the run up to immunisation campaigns<br />
+                        </p>
+                    </div>
+                </section>
+
+</div></div></body>
+:ET

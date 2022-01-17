@@ -1,0 +1,19 @@
+<section class="tiles">
+
+    {% for post in site.papers limit:site.front-page-posts %}
+        <article class="style{{ forloop.index | plus:1 }}">
+            <span class="image">
+                <img src="{{ site.url }}{{ site.baseurl }}/images/{{ post.logo }}" alt="" />
+            </span>
+            <a href="{{ post.github }}">
+                <h2></h2>
+                <!-- <div class="content">
+                    <p>{{ post.description }}</p>
+                </div> -->
+            </a>
+            <!-- <p>{{ post.title }}</p>         -->
+        </article>
+    {% endfor %}
+    
+    </section>
+    

@@ -1,0 +1,19 @@
+<section class="tiles">
+    {% assign sortedLocs = (site.locations | sort: 'daterange') | reverse %}
+    {% for post in sortedLocs%}
+        <article class="style{{ forloop.index | plus:1 }}">
+            <span class="image">
+                <img src="{{ site.url }}{{ site.baseurl }}/images/{{ post.logo }}" alt="" />
+            
+                <center>
+                    <p>{{ post.title }}<br>
+                    {{ post.description }}<br>
+                    {{ post.daterange }}</p>
+                </center>
+            </span>
+            
+        </article>
+    {% endfor %}
+    
+    </section>
+    

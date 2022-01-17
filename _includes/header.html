@@ -1,0 +1,42 @@
+<!-- Wrapper -->
+<div id="wrapper">
+
+	<header id="header">
+		<div class="inner">
+
+			<!-- Logo -->
+			<a href="{{ site.baseurl }}/" class="logo">
+				<span class="symbol">
+
+					{% if site.font-awesome-icon-logo %}
+
+					<div href="#" class="icon style1 {{ site.font-awesome-icon-logo }}"></div>
+
+					{% else %}
+
+					<img src="{{ site.baseurl }}/images/aine_otoole_bw.jpg" alt="" />
+
+					{% endif %}
+
+				</span><span class="title"><strong> {{ site.title }}</strong> | PhD <br>
+				Virus evolution, bioinformatics & phylogenetics 
+				</span>
+
+
+			</a>
+			<!-- Nav -->
+			<nav>
+				<ul>
+					<li><a href="#menu">Menu</a></li>
+
+				</ul>
+			</nav>
+
+		</div>
+	</header>
+
+	{% include menu.html %}
+
+	<!-- Main -->
+	<div id="main">
+		<div class="inner">

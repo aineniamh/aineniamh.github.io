@@ -1,0 +1,208 @@
+I"²<header>
+<!-- <h1>This is Phantom, a free, fully responsive site<br />
+template designed by <a href="http://html5up.net">HTML5 UP</a>.</h1>
+<p>Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem ipsum dolor sit amet nullam dolore.</p> -->
+</header>
+
+<section>
+<div class="row">
+<div class="6u 12u$(medium)">
+<ul class="actions vertical">
+<li><a href="#" class="button special fit">About me</a></li>
+<li><a href="#code_anchor" class="button special fit">Software</a></li>
+</ul>
+</div>
+<div class="6u 12u$(medium)">
+<ul class="actions vertical">
+<li><a href="#" class="button special fit">CV </a></li>
+<li><a href="#pub_anchor" class="button special fit">Publications</a></li>
+</ul>
+</div>
+</div>
+</section>
+
+<hr />
+
+<h2 id="code_anchor">Software</h2>
+<section class="tiles">
+
+
+	<article class="style2">
+		<span class="image">
+			<img src="http://localhost:3001/phantom-jekyll-theme/images/civet_logo.svg" alt="" />
+		</span>
+		<a href="https://github.com/artic-network/civet">
+			<h2>civet</h2>
+			<!-- <div class="content">
+				<p>cluster investigation and virus epidemiology tool</p>
+			</div> -->
+		</a>
+	</article>
+
+	<article class="style3">
+		<span class="image">
+			<img src="http://localhost:3001/phantom-jekyll-theme/images/civet_christmas.svg" alt="" />
+		</span>
+		<a href="cov-lineages.org">
+			<h2>grinch</h2>
+			<!-- <div class="content">
+				<p>global report investigating novel coronavirus haplotypes</p>
+			</div> -->
+		</a>
+	</article>
+
+	<article class="style4">
+		<span class="image">
+			<img src="http://localhost:3001/phantom-jekyll-theme/images/hedgehog_logo.svg" alt="" />
+		</span>
+		<a href="https://github.com/cov-lineages/hedgehog">
+			<h2>hedgehog</h2>
+			<!-- <div class="content">
+				<p>lineage set assignment for spike protein sequences</p>
+			</div> -->
+		</a>
+	</article>
+
+	<article class="style5">
+		<span class="image">
+			<img src="http://localhost:3001/phantom-jekyll-theme/images/pangolin_logo.svg" alt="" />
+		</span>
+		<a href="https://github.com/cov-lineages/pangolin">
+			<h2>pangolin</h2>
+			<!-- <div class="content">
+				<p>phylogenetic assignment of named global outbreak lineages</p>
+			</div> -->
+		</a>
+	</article>
+
+	<article class="style6">
+		<span class="image">
+			<img src="http://localhost:3001/phantom-jekyll-theme/images/piranha_logo.svg" alt="" />
+		</span>
+		<a href="https://github.com/artic-network/piranha">
+			<h2>piranha</h2>
+			<!-- <div class="content">
+				<p>polio investigation resource automating nanopore hapoltype analysis</p>
+			</div> -->
+		</a>
+	</article>
+
+	<article class="style7">
+		<span class="image">
+			<img src="http://localhost:3001/phantom-jekyll-theme/images/polecat_logo.svg" alt="" />
+		</span>
+		<a href="https://github.com/artic-network/polecat">
+			<h2>polecat</h2>
+			<!-- <div class="content">
+				<p>Phylogenetic Overview & Local Epidemiological Cluster Analysis Tool</p>
+			</div> -->
+		</a>
+	</article>
+
+	<article class="style8">
+		<span class="image">
+			<img src="http://localhost:3001/phantom-jekyll-theme/images/snipit_logo.svg" alt="" />
+		</span>
+		<a href="https://github.com/aineniamh/snipit">
+			<h2>snipit</h2>
+			<!-- <div class="content">
+				<p>polio investigation resource automating nanopore hapoltype analysis</p>
+			</div> -->
+		</a>
+	</article>
+
+
+</section>
+
+<p><br /></p>
+
+<p> Find all my code on <a href="https://github.com/aineniamh"><strong>GitHub</strong>.</a></p>
+
+<hr />
+
+<h2 id="pub_anchor"> Publications</h2>
+<section class="tiles">
+
+    
+        <article class="style2">
+            <span class="image">
+                <img src="http://localhost:3001/phantom-jekyll-theme/images/dup_thumb.png" alt="" />
+            </span>
+            <a href="https://academic.oup.com/mbe/article/35/1/107/4554431">
+                <h2></h2>
+                <!-- <div class="content">
+                    <p></p>
+                </div> -->
+            </a>
+            <!-- <p>Gene duplication rates of evolution</p>         -->
+        </article>
+    
+        <article class="style3">
+            <span class="image">
+                <img src="http://localhost:3001/phantom-jekyll-theme/images/grinch_thumb.png" alt="" />
+            </span>
+            <a href="https://wellcomeopenresearch.org/articles/6-121/v1#referee-response-43966">
+                <h2></h2>
+                <!-- <div class="content">
+                    <p></p>
+                </div> -->
+            </a>
+            <!-- <p>grinch</p>         -->
+        </article>
+    
+        <article class="style4">
+            <span class="image">
+                <img src="http://localhost:3001/phantom-jekyll-theme/images/pangolin_thumb.png" alt="" />
+            </span>
+            <a href="https://academic.oup.com/ve/article/7/2/veab064/6315289">
+                <h2></h2>
+                <!-- <div class="content">
+                    <p>Virus Evolution</p>
+                </div> -->
+            </a>
+            <!-- <p>pangolin</p>         -->
+        </article>
+    
+    
+    </section>
+
+<p><br /></p>
+
+<p> Full list of publications can be found on <a href="https://scholar.google.com/citations?user=IOY1T30AAAAJ&amp;hl=en"><strong>Google Scholar</strong>.</a></p>
+<hr />
+
+<h2>Positions</h2>
+<p>Institute of Evolutionary Biology, University of Edinburgh</p>
+<section class="tiles">
+
+    
+        <article class="style2">
+            <span class="image">
+                <img src="http://localhost:3001/phantom-jekyll-theme/images/smurfit_thumb.png" alt="" />
+            
+                <center>
+                    <p>MSc Genetics (Molecular Evolution)</p>
+                    <p>Trinity College Dublin</p>
+                    <p>2014-2016</p>
+                </center>
+            </span>
+            
+        </article>
+    
+        <article class="style3">
+            <span class="image">
+                <img src="http://localhost:3001/phantom-jekyll-theme/images/trin_thumb.png" alt="" />
+            
+                <center>
+                    <p>BA Natural Sciences (Genetics)</p>
+                    <p>Trinity College Dublin</p>
+                    <p>2010-2014</p>
+                </center>
+            </span>
+            
+        </article>
+    
+    
+    </section>
+
+:ET
