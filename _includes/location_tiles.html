@@ -3,7 +3,7 @@
     {% for post in sortedLocs%}
         <article class="style{{ forloop.index | plus:1 }}">
             <span class="image">
-                <img src="{{ site.url }}/images/{{ post.logo }}" alt="" />
+                <img src="/images/{{ post.logo }}" alt="" />
             
                 <center>
                     <p>{{ post.title }}<br>

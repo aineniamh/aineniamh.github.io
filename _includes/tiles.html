@@ -3,7 +3,7 @@
 {% for post in site.software limit:site.front-page-posts %}
 	<article class="style{{ forloop.index | plus:1 }}">
 		<span class="image">
-			<img src="{{ site.url }}/images/{{ post.logo }}" alt="" />
+			<img src="/images/{{ post.logo }}" alt="" />
 		</span>
 		<a href="{{ post.github }}">
 			<h2>{{ post.title }}</h2>
