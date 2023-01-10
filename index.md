@@ -34,7 +34,7 @@ title: Home
 <hr>
 
 <h2 id="pub_anchor"> Publications</h2>
-<p>Featured publications:</p>
+<p>First author publications:</p>
 {% include paper_tiles.html %}
 <br>
 
