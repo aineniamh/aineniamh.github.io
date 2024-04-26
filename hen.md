@@ -1,6 +1,6 @@
 ---
 layout: hen
 title: 
-featured-image: images/collage2.png
+featured-image: images/barbie_ciara.png
 ---
 
