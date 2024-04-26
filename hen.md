@@ -1,5 +1,6 @@
 ---
-layout: page
-title: Ciara's Hen party
-featured-image: images/ciara_hen.png
+layout: hen
+title: 
+featured-image: images/collage2.png
 ---
+
