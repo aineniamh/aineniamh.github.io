@@ -1,25 +1,48 @@
 <!DOCTYPE html>
-
-
-<!DOCTYPE html>
 <html>
 
 {% include hen_head.html %}
 
+{% include menu.html %}
+
 <body style="background-color:pink;">
 
     {% include hen_header.html %}
+    <p style="font-size: 28px;">
+    Leave the RealWorld behind and come to Barbieland (ahem, Galway) for Ciara's Hen Weekend! 
+    </p>
 
-    <h1>{{ page.title }}</h1> {% if page.featured-image %}
-    <span class="image main">
-      <img src="{{ page.featured-image }}" alt="">
-    </span> {% endif %} {{ content }}
+     {% if page.featured-image %}
+    <div style="width: 80%" class="image main">
+      <img src="{{ page.featured-image }}"  alt="">
+    </div> {% endif %} {{ content }}
 
+   <p style="font-size: 28px;">
+    Ciara and Luke will be tying the knot on the 4th of July, so to celebrate her upcoming non-independence day we're going to celebrate in Barbie style!
+    Join us for a weekend extravaganza in beautiful Galway City from the 24-26th of May!
+    </p>
 
     <section id="itinerary">
-        <h2>Some useful links</h2>
-        <ul>
+        <h2 style="width: 30%" class="image main">
+            <img src="{{ page.itin-header }}"  alt="">
+        </h2> 
+        <span style="padding-right:10px; padding-top: 0px; display:block;" class="image main">
+            <img src="{{ site.baseurl }}/images/friday_plan.png"  alt="">
+          </span> 
+          <span style="padding-right:10px; padding-top: 0px; display:block;" class="image main">
+            <img src="{{ site.baseurl }}/images/saturday_plan.png"  alt="">
+          </span> 
+
+    </section>
+
+
+    <section id="links">
+        <h2 style="width: 30%" class="image main">
+            <img src="{{ site.baseurl }}/images/Need-help.png"  alt="">
+        </h2> 
+        <ul style="font-size: 28px;">
             <li><a href="https://www.hydehotel.ie/en/">Hyde hotel website</a></li>
+            <li><a href="https://www.pedalpowergalway.com/faq/">Pedal Power Galway</a></li>
             <li><a href="https://www.kirbys.ie/">Kirby's website</a></li>
             <li><a href="https://corribprincess.ie/">Corrib princess</a></li>
             <li><a href="https://www.ireland.com/en-gb/magazine/culture/galway-city-experiences/">Galway things to do</a></li>
@@ -27,23 +50,18 @@
 
     </section>
 
-    <section id="itinerary">
-        <h2>Itinerary</h2>
-        <span style="padding-right:10px; padding-top: 10px; display:block;" class="image main">
-            <img src="{{ site.baseurl }}/images/itinerary.png"  alt="">
-          </span> 
-
-    </section>
-
-
 
     <section id="hotelpolicy">
-        <h2>Hyde hotel policy</h2>
+        <h2 style="width: 50%" class="image main">
+            <img src="{{ page.policy-image }}"  alt="">
+            <p style="font-size: 28px;">Hyde hotel policy</p>
+        </h2> 
+        <p style="font-size: 28px;">
         A security deposit of €25 per person, up to a maximum of €400 will be required for all group bookings of 3 rooms or more. 
         Please note this is in addition to the bedroom costs. This security deposit is also required 10 days prior to arrival along with full payment for the group. 
         <br><br>
-        Please note the security deposit will be retained by the hotel in the event of the following:
-        <ul>
+        Please note the security deposit will be retained by the hotel in the event of the following:</p>
+        <ul style="font-size: 28px;">
             <li>Any member of your party causing any damages to hotel property or other hotel residents property.</li>
             <li>Any member of your party causing serious disturbance/noise issues to other residents.</li>
             <li>Any other issues arising from your party's stay with us which are deemed applicable by the Manager on duty.</li>
@@ -51,10 +69,20 @@
             <li>Display of sexual paraphernalia, including items of fancy dress, is not permitted in any of the public areas including reception, bar, restaurant and lobby.</li>
             <li>Check out is 11.30am. Late check out up to 2pm can be added for €25 per room. This must be arranged with the reception team.</li>
         </ul>
-        If no such issues arise, the security deposit will be refunded in full on Monday morning. Please speak to the manager on duty regarding this requirement on your arrival to the hotel.
+    <p style="font-size: 28px;">If no such issues arise, the security deposit will be refunded in full on Monday morning. Please speak to the manager on duty regarding this requirement on your arrival to the hotel.
         <br><br>
         It is your responsibility as group organiser to inform the other members of your party of our hotel policies above.
-        Our reservations team will contact you 10 days before your check in date to take the full payment for bedrooms/meals/security deposit and to request rooming list.
+        Our reservations team will contact you 10 days before your check in date to take the full payment for bedrooms/meals/security deposit and to request rooming list.</p>
+    </section>
+
+    <section id="rooms">
+        <h2 style="width: 60%" class="image main">
+            <img src="{{ site.baseurl }}/images/rooms.png"  alt="">
+        </h2> 
+        <span style="padding-right:10px; padding-top: 0px; display:block;" class="image main">
+            <img src="{{ site.baseurl }}/images/room_list.png"  alt="">
+          </span> 
+
     </section>
 
 </body>
